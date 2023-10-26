@@ -3,6 +3,7 @@ import speech_recognition as sr
 import config
 import subprocess
 
+# you must change this file ways on your
 ccleaner = r"C:\Program Files\CCleaner\CCleaner64.exe"
 steam = r"D:\steam\steam.exe"
 chrome = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
@@ -10,7 +11,7 @@ chrome = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 def open_ccleaner():
     try:
         os.startfile(ccleaner)
-        print(f"Открыт файл: {steam}")
+        print(f"Открыт файл: {cclener}")
     except Exception as e:
         print(f"Ошибка при открытии файла: {e}")
 
@@ -24,7 +25,7 @@ def close_ccleaner():
 def open_steam():
     try:
         os.startfile(steam)
-        print(f"Открыт файл: {minecraft}")
+        print(f"Открыт файл: {steam}")
     except Exception as e:
         print(f"Ошибка при открытии файла: {e}")
 
